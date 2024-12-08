@@ -16,6 +16,7 @@ import logging
 from django.utils.timezone import now
 from rest_framework.decorators import api_view
 from rest_framework.generics import CreateAPIView
+from django.views.decorators.csrf import csrf_exempt
 
 # Event registration view
 
